@@ -1,0 +1,87 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, #6e45e2, #88d3ce);
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contenedor-buscador {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  width: 70%;
+}
+
+.contenedor-buscador input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.contenedor-buscador button {
+  background: #6e45e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+hr {
+  width: 70%;
+  margin: 20px 0;
+  border: none;
+  border-top: 2px solid #ddd;
+}
+
+.contenedor {
+  width: 70%;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #6e45e2;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.botones {
+  margin-top: 15px;
+}
+
+button {
+  margin: 5px;
+  background: #6e45e2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5533c7;
+}
+
+.mapa{
+  margin-top: 3%;
+}

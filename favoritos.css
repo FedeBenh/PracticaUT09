@@ -1,0 +1,94 @@
+/* Fuente y fondo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #6e45e2, #88d3ce);
+    margin: auto;
+    max-width: 40rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Botón de regreso al inicio */
+  #index {
+    background: white;
+    color: #6e45e2;
+    font-weight: bold;
+    border: 2px solid #6e45e2;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #index:hover {
+    background: #6e45e2;
+    color: white;
+  }
+  
+  /* Contenedor de los lugares favoritos */
+  #lista-lugares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    width: 70%;
+  }
+  
+  /* Estilos de cada lugar */
+  .lugar {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 35rem;
+  }
+  
+  /* Nombre del lugar */
+  .lugar p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6e45e2;
+    margin-bottom: 10px;
+  }
+  
+  /* Botón para mostrar/ocultar información */
+  .botonInformacion {
+    margin: 5px;
+    background: #6e45e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .botonInformacion:hover {
+    background: #5533c7;
+  }
+  
+  /* Información del clima */
+  .informacion {
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-size: 0.95rem;
+  }
+  
+  /* Ocultar información por defecto */
+  .hidden {
+    display: none;
+  }
+  

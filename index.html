@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Ciudades</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+</head>
+
+<body>
+  <div class="contenedor-buscador">
+    <input type="text" required placeholder="Pon el nombre de la ciudad aquí." id="busqueda">
+    <button type="submit" id="buscar">Buscar</button>
+    <button type="submit" id="ir_favoritos">Favoritos</button>
+  </div>
+  <hr>
+  <div class="contenedor">
+    <p id="ciudad"></p>
+    <p id="temperatura"></p>
+    <p id="descripcion"></p>
+    <p id="sensacion"></p>
+    <p id="humedad"></p>
+    <p id="presion"></p>
+    <p id="viento"></p>
+    <p id="nubes"></p>
+    <p id="amanecer"></p>
+    <p id="atardecer"></p>
+    <input type="text" required placeholder="Ponle nombre a tu sitio" id="nombre_personalizado"> 
+    <div>
+      <button id="favorito">Añadir Favoritos</button>
+    </div>
+  </div>
+  <div class="mapa" id="mapa" style="height: 400px; width: 100%;"></div>
+
+</body>
+<script src="renderer.js"></script>
+
+</html>
